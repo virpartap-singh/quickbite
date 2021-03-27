@@ -1,0 +1,185 @@
+/* global css */
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  display: inline-block;
+  font-family: 'Kalam', Inconsolata;
+  position: relative;
+  background: lightgray;
+}
+
+/* navigation bar  */
+.intro-background {
+  width: 100%;
+  min-height: 100vh;
+  background: url("background-image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.navbar-brand {
+  letter-spacing: 1px;
+  font-family: 'Chilanka', cursive;
+  color: #fff;
+}
+
+/* intro content  */
+.tagline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.tagline h1 {
+  color: #f6faf5;
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.tagline p {
+  color: #f6faf5;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 10px;
+}
+
+
+/* intro content end   */
+hr {
+  border: dotted gray;
+  width: 10%;
+  border-width: 10px 0 0 0;
+  margin: 30px auto;
+}
+
+/*    */
+.holder {
+  background: lightgray;
+  text-align: center;
+}
+
+.holder h1 {
+  color:#36626e;
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.holder p {
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 22px;
+  line-height: 28px;
+  color: #5a616e;
+  text-align: center;
+}
+
+.about-content h2 {
+  float: center;
+  color: #013a4a;
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 33px;
+  padding: 15px;
+}
+
+
+.checked {
+  color: orange;
+}
+
+
+
+/* pages css   */
+.page-heading{
+  padding-top: 70px;
+  margin-bottom: 60px;
+}
+
+.page-heading h1{
+  color: #013a4a;;
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 15px;
+
+  padding-bottom: 30PX;
+  text-align: center;
+}
+
+.page-heading h2{
+  color: #013a4a;
+  text-align: center;
+}
+
+.page-heading p {
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  line-height: 28px;
+  color: #5a616e;
+  text-align: center;
+}
+
+.page-heading a {
+  width: 85%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  color: #000;
+}
+
+.page-heading a:hover {
+  color: #544c48;
+}
+
+/* pizza page   */
+.page-heading img {
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 100%;
+  padding: 10px 30px;
+}
+
+
+.pizza-price {
+  margin-right: 7px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+
+.counter {
+  width: 13%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+/* footer   */
+
+
+.footer{
+  background-color: rgba(12, 1, 23, 0.7);
+}
+
+.footer p{
+  color: #fff;
+}

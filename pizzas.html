@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- fontfamily -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/ec42c28e2a.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+  <!-- css sheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Pizza Menu</title>
+</head>
+
+<body>
+
+  <!---navigation bar---->
+  <div class="container-fluid">
+    <!--Navbar -->
+    <nav class="mb-1 navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+
+      <span class="navbar-brand ">
+        <strong>QB Pizza</strong>
+      </span>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarc"
+        aria-controls="navbarc" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarc">
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link px-4" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4" href="pizzas.html">Pizzas</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link px-4" href="cart.html">Cart</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link px-4" href="contact.html">Contact</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link px-4" href="signin.html">Sign In</a>
+          </li> -->
+        </ul>
+
+        <ul class="navbar-nav ml-auto nav-flex-icons">
+          <li class="nav-item">
+            <a class="nav-link">
+              <i class="fas fa-user"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--/.Navbar -->
+  </div>
+
+  <div class="container page-heading">
+    <h1>Pizza Menu</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="pizza_napoletana.jpg" height=300>
+        <p>Pizza Napoletana</p>
+      </div>
+      <div class="col-md-6">
+        <p>The genuine pizza Napoletana is made with just a few simple ingredients
+          and prepared in only two variations marinara, the basic Neapolitan pizza
+          topped with a tomato-based sauce flavored with garlic and oregano, and
+          margherita, which is topped with tomatoes, mozzarella, and fresh basil leaves.</p>
+        <div class="text-center">
+          <span class="pizza-price">£25</span>
+          <span class="pizza-price"> Qnty.</span>
+          <input class="counter" type="number" min="1" name="count">
+          <button onclick="myFunction()" class="btn btn-outline-success">Add to Cart</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <img src="pizza_margherita.jpg" height=300>
+        <p>Pizza Margherita</p>
+      </div>
+      <div class="col-md-6">
+        <p>Pizza Margherita is a delicacy that literally fits for everyone.
+          Margherita is one of the most popular pizza varieties in the world,
+          proving its excellence in flavor, ingredients, and traditional pizza-making techniques.</p>
+
+        <div class="text-center">
+          <span class="pizza-price">£25</span>
+          <span class="pizza-price"> Qnty.</span>
+          <input class="counter" type="number" min="1" name="count">
+          <button onclick="myFunction()" class="btn btn-outline-success">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <img src="pizza_capricciosa.jpg" height=300>
+        <p>Pizza Cappricciosa</p>
+      </div>
+      <div class="col-md-6">
+        <p>Capricciosa is made with an ever-changing combination of ingredients
+          which most often include tomatoes, mozzarella, mushrooms, artichokes,
+          ham, olives, and a sliced hard-boiled egg and sometimes even anchovies.</p>
+
+        <div class="text-center">
+          <span class="pizza-price">£25</span>
+          <span class="pizza-price"> Qnty.</span>
+          <input class="counter" type="number" min="1" name="count">
+          <button onclick="myFunction()" class="btn btn-outline-success">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <img src="caprese_pizza.jpg" height=300>
+        <p>Caprese Pizza</p>
+      </div>
+      <div class="col-md-6">
+        <p>This is a variety of Italian pizza that is traditionally topped with cherry tomatoes,
+          mozzarella di bufala, olive oil, and fresh basil leaves. It provides a great way to use
+          up leftover tomatoes, and some cooks like to finish it off with a drizzle of balsamic
+          reduction on top.</p>
+
+        <div class="text-center">
+          <span class="pizza-price">£25</span>
+          <span class="pizza-price"> Qnty.</span>
+          <input class="counter" type="number" min="1" name="count">
+          <button onclick="myFunction()" class="btn btn-outline-success">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!---footer---->
+  <div class="footer fixed-bottom text-center">
+    <p>© Quick Bite Pizza | 2021</p>
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>
